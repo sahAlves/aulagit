@@ -1,0 +1,52 @@
+git init -> cria a pasta .git
+
+git config --global user.name "sahAlves"
+
+git config --global user.email "sah.alves002@gmail.com"
+
+git config --global user.email -> vai mostrar o email
+
+git add package.json -> adiciona o arquivo no index(stage)
+
+git status -> mostra se tem arquivos pra ser commitados
+
+git rm --cached package.json -> remove da index
+
+git add * -> adiciona todos os arquivos
+
+git log -> mostra a linha do tempo
+
+touch index.js -> cria um arquivo
+
+git commit -m "Primeiro commit" -> comentar os arquivos
+
+git diff -> mostra as modificações do arquivo
+
+git checkout 94868954fd89dfgd9h8d0h8d9 -> muda pra linha do tempo que quer
+
+git checkout master -> volta pro master
+
+touch .gitignore -> cria o arquivo que terá os nomes de arquivos que nao devem subir para o git
+
+git add .gitignore -> tem q subir esse arquivo tbm, pois nunca perderemos quais arquivos nao devem subir
+
+git branch funcionalidade1 -> cria um branch
+
+git branch -> mostra quais branch tem
+
+git checkout funcionalidade1 -> muda pra branch escolhida
+
+git merge funcionalidade1 -> junta os branch com a master
+
+git branch -d funcionalidade1 -> exclui branch
+
+git remote add origin https://github.com/sahAlves/aulagit.git -> diz pra qual repositorio irá no git
+
+git push origin master -> manda pro git
+
+git pull origin master -> baixa do git pra maquina 
+
+
+
+
+
